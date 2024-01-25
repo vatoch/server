@@ -14,7 +14,7 @@ RUN gcc -o myapp server.c
 # RUN rm -rf /app
 
 # Expose the port your application will run on (if applicable)
-# EXPOSE 8080
+EXPOSE 8081
 
 # Command to run your application
 CMD ["./myapp"]
